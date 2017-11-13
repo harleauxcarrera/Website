@@ -1,0 +1,78 @@
+
+
+
+a{
+font-family: 'Playfair Display SC', serif;
+}
+
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    background-color: black;
+}
+#pexperience{
+  border: 20px solid grey;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#experience{
+  padding-bottom: 60px;
+}
+#profilePic{
+  border: 20px solid grey;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#myIcons{
+  color: black;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('./Pics/Universe.jpg');
+    min-height: 100%;
+
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("./Pics/Clock.png");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("./Pics/Plaza.png");
+    min-height: 400px;
+}
+/* Fourth image (Skills) */
+.bgimg-4 {
+    background-image: url("./Pics/leef.png");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
