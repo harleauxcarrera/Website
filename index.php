@@ -107,24 +107,6 @@
   <h3 class="w3-center">EXPERIENCE</h3>
 
 
-
-                              <!--SKILLS -->
-  <p class="w3-large w3-center w3-padding-16">Skills:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Videography</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Music Production</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
-  </div>
-
-
-
   <p class="w3-large w3-center w3-padding-16">Technical Skills:</p>
 
   <!--COLUMN 1 OF PROGRESS BAR SKILLS-->
@@ -189,27 +171,6 @@
   </ul>
 
 </div>
-
-
-
-
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Ableton Live</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Adobe Premiere</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Adobe Illustrator</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">40%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Adobe Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">40%</div>
-  </div>
-
 
 </div>
 
