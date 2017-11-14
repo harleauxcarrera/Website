@@ -4,7 +4,7 @@
 
 <?php
 
-echo nl2br("This dude: ". $_GET["name"] ."\nSays: " . $_GET["message"] . "\nRespond to: " .$_GET["email"]); 
+echo nl2br("This dude: ". $_GET["name"] ."\nSays: " . $_GET["message"] . "\nRespond to: " .$_GET["email"]);
 // the message
 
 
@@ -12,8 +12,14 @@ echo nl2br("This dude: ". $_GET["name"] ."\nSays: " . $_GET["message"] . "\nResp
 
 
 
-// send email (to, subject, message)
-mail("harleauxcarrera@gmail.com","yooo",$msg);
+
+
+$mail=mail("harleauxcarrera@gmail.com", "Test message","hey there hows it going" );
+if($mail){
+  echo "Thank you for using our mail form";
+}else{
+  echo "Mail sending failed.";
+}
 
 
 ?>
