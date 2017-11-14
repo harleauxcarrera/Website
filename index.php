@@ -27,7 +27,7 @@
   <div class="w3-bar" id="myNavbar">
     <!--not needed?   removed: href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"-->
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" ></a>
-    <a href="#home" class="w3-bar-item w3-button w3-hide-small">HOME</a>
+    <a href="#home" class="w3-bar-item w3-button w3-hide-small">HOMETHISSHIT</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#experience" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> EXPERIENCE</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
