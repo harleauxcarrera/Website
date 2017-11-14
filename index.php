@@ -27,7 +27,7 @@
   <div class="w3-bar" id="myNavbar">
     <!--not needed?   removed: href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"-->
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" ></a>
-    <a href="#home" class="w3-bar-item w3-button w3-hide-small">HOMETHISSHIT</a>
+    <a href="#home" class="w3-bar-item w3-button w3-hide-small">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#experience" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> EXPERIENCE</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
@@ -333,7 +333,7 @@
   <!--SOCIAL MEDIA CONCACT ICONS-->
   <a href="https://www.facebook.com/profile.php?id=100009838722180"> <i class="fa fa-facebook fa-2x w3-hover-opacity"></i></a>
   <a href="http://facebook.com"> <i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
-  <a href="http://twitter.com/HarleauxCarrera"> <i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
+  <a href="http://twitter.com/harleauxcarrera"> <i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
   <a href="https://www.linkedin.com/in/carlos-herrera-a1580676/"> <i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
   <a href="https://www.youtube.com/harleauxcarrera"> <i class="fa fa-youtube fa-2x  w3-hover-opacity"></i></a>
 </footer>
