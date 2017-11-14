@@ -22,7 +22,7 @@
 
 
 
-<!-- Navbar (sit on top) -->
+<!-- Navbar (sit on top!) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
     <!--not needed?   removed: href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"-->
