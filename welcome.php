@@ -8,13 +8,15 @@ echo nl2br("This dude: ". $_GET["name"] ."\nSays: " . $_GET["message"] . "\nResp
 // the message
 
 
+ $email = "harleauxcarrera@gmail.com";
+ $subject = "Test";
+ $message = "Hey there hows it going";
 
 
 
 
 
-
-$mail=mail("harleauxcarrera@gmail.com", "Test message","hey there hows it going" );
+$mail=mail($email, $subject,$message );
 if($mail){
   echo "Thank you for using our mail form";
 }else{
