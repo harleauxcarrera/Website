@@ -18,7 +18,7 @@ echo nl2br("This dude: ". $_GET["name"] ."\nSays: " . $_GET["message"] . "\nResp
 
 $mail=mail($email, $subject,$message );
 if($mail){
-  echo "Thank you for using our mail form";
+  echo "\nThank you for using our mail form";
 }else{
   echo "Mail sending failed.";
 }

@@ -70,9 +70,7 @@
   <p class="w3-center"><em>1. cre·a·tion - the action or process of bringing something into existence.<br>
   2. cre·ate - to evolve from one's own thought or imagination, as a work of art or an invention.</em>
   </p>
-  <p>I've always been fascinated by the idea of creation. There is nothing better than being able to see, touch, feel and even taste a finished product.
-    I remember making bracelets and necklaces made out of hemp back in the day when I was in elementary school which followed into middle school. Once I got to
-    highschool I got into creating music and blah blah blah
+  <p>I've always been fascinated by the idea of creation. There is nothing better than being able to see, touch, feel and even taste a finished product. s 
   </p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
@@ -84,11 +82,8 @@
     <div class="w3-col m6  w3-padding-large " >
       <p id = "pexperience" class = "w3-round" >I am currently a senior at the University of Texas at El Paso pursuing a
       degree in Computer Science and will be graduating in May of 2018 with a minor in media production. I am looking for challenging opportunities
-    to put my skillset to use. I am mainly interested in web and mobile application development but am open to other areas.
-    My media production background has helped me with various aspects of front-end development including graphics and animation.
-    Take a look at my portfolio to get a feel for some of the work that I have created. Some of the things I like to do include doing
-    this and doin that and really im just filling in the rest of the contatiner so it looks equal heigth to the profile pic that I have
-    right next to this container. lets see if that does it </p>
+    to put my skillset to use. Web and mobile application development are two areas that draw my interests.
+    Take a look at my portfolio to get a feel for some of the work that I have created. I look forward to accumulating a diverse digital resume. </p>
     </div>
   </div>
 
@@ -186,10 +181,11 @@
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  
+  <h2>Currently cooking up some projects, check back later</h2>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
+  <!-- <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
       <img src="./Skeleton.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
     </div>
@@ -225,7 +221,7 @@
     </div>
 
   </div>
-</div>
+</div> -->
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
@@ -261,7 +257,7 @@
 
                  <!--CONTACT FORM-->
       <p> Contact me:</p>
-      <form action="./welcome.php" method="get">
+      <form action="./index.php" method="get">
 
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
 
