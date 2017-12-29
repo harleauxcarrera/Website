@@ -66,7 +66,7 @@
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
+  <h3 class="w3-center">ABOUT ME FUCK ME</h3>
   <p class="w3-center"><em>1. cre·a·tion - the action or process of bringing something into existence.<br>
   2. cre·ate - to evolve from one's own thought or imagination, as a work of art or an invention.</em>
   </p>
