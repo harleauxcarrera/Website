@@ -74,7 +74,7 @@
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
           </div>
-
+          <br>
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
           </div>
