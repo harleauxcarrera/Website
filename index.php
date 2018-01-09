@@ -22,22 +22,15 @@
 
 
 
-<!-- Navbar (sit on top!) -->
+  <!--Social media links on  right side navbar-->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
-  
-    <!--Social media links on the right side of the navbar-->
-
    <a href="https://www.facebook.com/profile.php?id=100009838722180"> <i class="fa fa-facebook fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;"></i></a>
     <a href="http://facebook.com" > <i  class="fa fa-instagram fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;"></i></a>
     <a href="https://twitter.com/HarleauxCarrera"> <i class="fa fa-twitter fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;" ></i></a>
     <a href="https://www.linkedin.com/in/carlos-herrera-a1580676/"> <i class="fa fa-linkedin fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;"></i></a>
     <a href="https://www.youtube.com/harleauxcarrera"> <i class="fa fa-youtube fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;"></i></a>
-
-
   </div>
-
-  >
 </div>
 
 <!-- First Parallax Image with Logo Text removed from class:w3-display-container -->
@@ -71,15 +64,15 @@
 
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
 
-          <div class="w3-half">
+          <div>
             <input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
           </div>
-          <br>
-          <div class="w3-half">
+          
+          <div>
             <input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
           </div>
 
-           <div class="w3-half">
+           <div>
             <input class="w3-input w3-border" type="text" placeholder="Message"  name="message">
           </div>
 
