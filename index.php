@@ -91,8 +91,11 @@
 </div> -->
 
 
-<div class="container" style="background-color: yellow;">
-whats fucci fam
+<div class="container" style="background-color: white; padding-top: 36px;">
+<p> I am currently in my last semester at the University of Texas El Paso studying computer science and will graduate
+  this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
+  my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
+</p>
 </div>
 
 <center><span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span></center>
