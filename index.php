@@ -92,32 +92,31 @@
 
 
 <div class="col-md-6" id="aboutMe" style="background-color: white; margin-top:36px; padding-top: 15px; border-radius: 10px;">
-<p> I am currently in my last semester at the University of Texas El Paso studying computer science and will graduate
-  this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
-  my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
-</p>
+  <p> I am currently in my last semester at the University of Texas El Paso studying computer science and will graduate
+    this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
+    my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
+  </p>
 </div>
 
 
-<div>
 <center><span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span></center>
 
+                <!--Google Map -->
     <div class="w3-col m4 w3-container">
-      <!-- Add Google Maps -->
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
     </div>
-
+                <!--CONTACT ICONS-->
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> El Paso, TX<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 915.920.3948<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: harleauxcarrera@gmail.com<br>
       </div>
+    </div>
 
                  <!--CONTACT FORM-->
       <p> Send me a message!</p>
-      <form action="./index.php" method="get">
-
+    <form action="./index.php" method="get">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
 
           <div>
@@ -136,13 +135,7 @@
           <button class="w3-button w3-black w3-right w3-section" type="submit">
             <i class="fa fa-paper-plane"></i> SEND
           </button>
-
-
-
       </form>
-    </div>
-  </div>
-</div>
 
 
 <!-- Footer -->
