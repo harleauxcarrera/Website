@@ -101,11 +101,12 @@
 
 <div>
 <center><span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span></center>
-  <div class="w3-row w3-padding-32 w3-section">
+
     <div class="w3-col m4 w3-container">
       <!-- Add Google Maps -->
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
     </div>
+
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> El Paso, TX<br>
@@ -128,7 +129,7 @@
           </div>
 
            <div>
-            <input class="w3-input w3-border" type="text" placeholder="Message"  name="message">
+            <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
           </div>
 
 
@@ -142,7 +143,7 @@
     </div>
   </div>
 </div>
-</div>
+
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16 ">
