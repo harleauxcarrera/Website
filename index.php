@@ -97,10 +97,10 @@
   <!-- Third Parallax Image with Portfolio Text -->
   <div class="bgimg-3 w3-display-container w3-opacity-min">
     <div class="w3-display-middle">
-       <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+
     </div>
   </div>
-
+<span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
       <!-- Add Google Maps -->
