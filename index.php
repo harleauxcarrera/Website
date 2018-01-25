@@ -101,41 +101,44 @@
 
 <center><span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span></center>
 
-                <!--Google Map -->
+  <div class="container">
+        <!--Google Map -->
     <div class="w3-col m4 w3-container">
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+    <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
     </div>
-                <!--CONTACT ICONS-->
+        <!--CONTACT ICONS-->
     <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> El Paso, TX<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 915.920.3948<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: harleauxcarrera@gmail.com<br>
-      </div>
+    <div class="w3-large w3-margin-bottom">
+    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> El Paso, TX<br>
+    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 915.920.3948<br>
+    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: harleauxcarrera@gmail.com<br>
+    </div>
     </div>
 
-                 <!--CONTACT FORM-->
+         <!--CONTACT FORM-->
     <p> Send me a message!</p>
     <form action="./index.php" method="get">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
 
-          <div>
-            <input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
-          </div>
+    <div>
+    <input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
+    </div>
 
-          <div>
-            <input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
-          </div>
+    <div>
+    <input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
+    </div>
 
-           <div>
-            <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
-          </div>
+    <div>
+    <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
+    </div>
 
 
-          <button class="w3-button w3-black w3-right w3-section" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND
-          </button>
-      </form>
+    <button class="w3-button w3-black w3-right w3-section" type="submit">
+    <i class="fa fa-paper-plane"></i> SEND
+    </button>
+    </form>
+
+  </div>
 
 
 <!-- Footer -->
