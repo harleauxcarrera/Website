@@ -12,6 +12,9 @@ body, html {
     background-color: black;
 }
 
+#aboutMe{
+  background-color: yellow;
+}
 #pexperience{
   border: 20px solid grey;
   padding-top: 13px;
