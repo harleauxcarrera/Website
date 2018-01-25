@@ -12,6 +12,11 @@ body, html {
     background-color: black;
 }
 
+#aboutMe{
+
+  border-radius: 10px;
+  border-color: grey;
+}
 #pexperience{
   border: 20px solid grey;
   padding-top: 13px;
