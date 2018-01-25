@@ -101,7 +101,7 @@
 
 <center><span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span></center>
 
-  <div class="container">
+  <div class="row">
         <!--Google Map -->
     <div class="w3-col m4 w3-container">
     <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
