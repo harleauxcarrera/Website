@@ -22,37 +22,14 @@
 
 
 
-<!-- Navbar (sit on top!) -->
+  <!--Social media links on  right side navbar-->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
-    <!--not needed?   removed: href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"-->
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" ></a>
-    <a href="#home" class="w3-bar-item w3-button w3-hide-small">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#experience" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> EXPERIENCE</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <!--Social media links on the right side of the navbar-->
-
    <a href="https://www.facebook.com/profile.php?id=100009838722180"> <i class="fa fa-facebook fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;"></i></a>
     <a href="http://facebook.com" > <i  class="fa fa-instagram fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;"></i></a>
     <a href="https://twitter.com/HarleauxCarrera"> <i class="fa fa-twitter fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;" ></i></a>
     <a href="https://www.linkedin.com/in/carlos-herrera-a1580676/"> <i class="fa fa-linkedin fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;"></i></a>
     <a href="https://www.youtube.com/harleauxcarrera"> <i class="fa fa-youtube fa-3x w3-bar-item w3-hover-opacity w3-right" style = "color: grey;"></i></a>
-
-
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#experience" class="w3-bar-item w3-button" onclick="toggleFunction()">EXPERIENCE</a>
-    <a href="#" class="w3-bar-item w3-button"> SEARCH </a>
-
-
   </div>
 </div>
 
@@ -84,7 +61,7 @@
       degree in Computer Science and will be graduating in May of 2018 with a minor in media production. I am looking for challenging opportunities
     to put my skillset to use. Web and mobile application development are two areas that draw my interests.
     Take a look at my portfolio to get a feel for some of the work that I have created. I look forward to accumulating a diverse digital resume. </p>
-    </div>
+    </div
   </div>
 
 </div>
@@ -261,15 +238,15 @@
 
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
 
-          <div class="w3-half">
+          <div>
             <input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
           </div>
 
-          <div class="w3-half">
+          <div>
             <input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
           </div>
 
-           <div class="w3-half">
+           <div>
             <input class="w3-input w3-border" type="text" placeholder="Message"  name="message">
           </div>
 
@@ -315,34 +292,7 @@ function myMap()
   marker.setMap(map);
 }
 
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
 </script>
 <!--created API key for javascript in google API console to be able to use the google map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqBZyEr4W2HKhbljzC6NMJy2o9ewZdgJY&callback=myMap"></script>
