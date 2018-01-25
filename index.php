@@ -36,7 +36,7 @@
 <!-- First Parallax Image with Logo Text removed from class:w3-display-container -->
 <div class="bgimg-1" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span> CARLOS HERRERAaaa</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span> CARLOS HERRERA</span>
   </div>
 </div>
 
@@ -93,7 +93,7 @@
 
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
+<div class="w3-content w3-container" id="contact">
   <!-- Third Parallax Image with Portfolio Text -->
   <div class="bgimg-3 w3-display-container w3-opacity-min">
     <div class="w3-display-middle">
