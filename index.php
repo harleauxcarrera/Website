@@ -93,9 +93,9 @@
 
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container" id="contact">
+<div>
   <!-- Third Parallax Image with Portfolio Text -->
-  <div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="bgimg-3 w3-display-container w3-padding-64 w3-opacity-min">
     <div class="w3-display-middle">
 
     </div>
