@@ -59,7 +59,7 @@
 <!-- First Parallax Image with Logo Text removed from class:w3-display-container -->
 <div class="bgimg-1" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span> CARLOS HERRERA</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span> CARLOS HERRERAaaa</span>
   </div>
 </div>
 
@@ -70,7 +70,7 @@
   <p class="w3-center"><em>1. cre·a·tion - the action or process of bringing something into existence.<br>
   2. cre·ate - to evolve from one's own thought or imagination, as a work of art or an invention.</em>
   </p>
-  <p>I've always been fascinated by the idea of creation. There is nothing better than being able to see, touch, feel and even taste a finished product. s 
+  <p>I've always been fascinated by the idea of creation. There is nothing better than being able to see, touch, feel and even taste a finished product. s
   </p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
@@ -181,7 +181,7 @@
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
-  
+
   <h2>Currently cooking up some projects, check back later</h2>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
