@@ -98,6 +98,8 @@
 </p>
 </div>
 
+
+<div>
 <center><span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span></center>
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -139,6 +141,7 @@
       </form>
     </div>
   </div>
+</div>
 </div>
 
 <!-- Footer -->
