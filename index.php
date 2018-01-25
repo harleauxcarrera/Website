@@ -100,7 +100,7 @@
 
     </div>
   </div>
-<span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+<center><span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
       <!-- Add Google Maps -->
@@ -114,7 +114,7 @@
       </div>
 
                  <!--CONTACT FORM-->
-      <p> Contact me:</p>
+      <p> Send me a message!</p>
       <form action="./index.php" method="get">
 
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
