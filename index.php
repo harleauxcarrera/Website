@@ -91,7 +91,7 @@
 </div> -->
 
 
-<div class="col-md-6" id="aboutMe" style="background-color: white; margin-top:36px; padding-top: 15px; border-radius: 10px;">
+<div id="aboutMe" style="background-color: white; margin-top:36px; padding-top: 15px; border-radius: 10px;">
   <p> I am currently in my last semester at the University of Texas El Paso studying computer science and will graduate
     this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
     my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
@@ -115,7 +115,7 @@
     </div>
 
                  <!--CONTACT FORM-->
-      <p> Send me a message!</p>
+    <p> Send me a message!</p>
     <form action="./index.php" method="get">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
 
