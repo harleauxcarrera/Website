@@ -142,15 +142,18 @@
 
 
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16 ">
-  <!--SOCIAL MEDIA CONCACT ICONS-->
-  <a href="https://www.facebook.com/profile.php?id=100009838722180"> <i class="fa fa-facebook fa-2x w3-hover-opacity"></i></a>
-  <a href="http://facebook.com"> <i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
-  <a href="http://twitter.com/harleauxcarrera"> <i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
-  <a href="https://www.linkedin.com/in/carlos-herrera-a1580676/"> <i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
-  <a href="https://www.youtube.com/harleauxcarrera"> <i class="fa fa-youtube fa-2x  w3-hover-opacity"></i></a>
-</footer>
+<div style"margin: auto;">
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-16 ">
+    <!--SOCIAL MEDIA CONCACT ICONS-->
+    <a href="https://www.facebook.com/profile.php?id=100009838722180"> <i class="fa fa-facebook fa-2x w3-hover-opacity"></i></a>
+    <a href="http://facebook.com"> <i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
+    <a href="http://twitter.com/harleauxcarrera"> <i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/carlos-herrera-a1580676/"> <i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
+    <a href="https://www.youtube.com/harleauxcarrera"> <i class="fa fa-youtube fa-2x  w3-hover-opacity"></i></a>
+  </footer>
+</div>
+
 
 
 
