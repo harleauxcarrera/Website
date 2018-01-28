@@ -12,7 +12,10 @@ body, html {
     background-color: black;
 }
 
-
+#aboutMe{
+  padding-top: 36px;
+  
+}
 
 #myIcons{
   color: black;
