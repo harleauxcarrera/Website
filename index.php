@@ -100,6 +100,8 @@
 
 
 <center><span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span></center>
+<br>
+<br>
 
 
         <!--Google Map -->
@@ -127,7 +129,7 @@
       </div>
 
       <div>
-      <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
+      <input class="" type="textarea" placeholder="Message"  name="message">
       </div>
 
 
