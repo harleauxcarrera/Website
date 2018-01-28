@@ -92,7 +92,7 @@
 
 
 <div id="aboutMe">
-  <p> I am currently in my last semestersdd at the University of Texas El Paso studying computer science and will graduate
+  <p> I am currently in my last semester at the University of Texas El Paso studying computer science and will graduate
     this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
     my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
   </p>
@@ -113,30 +113,31 @@
     <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 915.920.3948<br>
     <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: harleauxcarrera@gmail.com<br>
     </div>
+    <!--CONTACT FORM-->
+<p> Send me a message!</p>
+<form action="./index.php" method="get">
+<div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+
+<div>
+<input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
+</div>
+
+<div>
+<input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
+</div>
+
+<div>
+<input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
+</div>
+
+
+<button class="w3-button w3-black w3-right w3-section" type="submit">
+<i class="fa fa-paper-plane"></i> SEND
+</button>
+</form>
     </div>
 
-         <!--CONTACT FORM-->
-    <p> Send me a message!</p>
-    <form action="./index.php" method="get">
-    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
 
-    <div>
-    <input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
-    </div>
-
-    <div>
-    <input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
-    </div>
-
-    <div>
-    <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
-    </div>
-
-
-    <button class="w3-button w3-black w3-right w3-section" type="submit">
-    <i class="fa fa-paper-plane"></i> SEND
-    </button>
-    </form>
 
 
 
