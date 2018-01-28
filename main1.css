@@ -12,28 +12,7 @@ body, html {
     background-color: black;
 }
 
-.aboutMe{
-  background-color: black;
-}
-#pexperience{
-  border: 20px solid grey;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
 
-#experience{
-  padding-bottom: 60px;
-}
-#profilePic{
-  border: 20px solid grey;
-  margin-top: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
 
 #myIcons{
   color: black;
