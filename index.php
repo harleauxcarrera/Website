@@ -116,25 +116,25 @@
     <!--CONTACT FORM-->
 <p> Send me a message!</p>
 <form action="./index.php" method="get">
-<div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+<div class="w3-row-padding" style="margin:0 -16px 8px -16px; padding-right: 20px;">
 
-<div>
-<input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
-</div>
+      <div>
+      <input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
+      </div>
 
-<div>
-<input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
-</div>
+      <div>
+      <input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
+      </div>
 
-<div>
-<input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
-</div>
+      <div>
+      <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
+      </div>
 
 
-<button class="w3-button w3-black w3-right w3-section" type="submit">
-<i class="fa fa-paper-plane"></i> SEND
-</button>
-</form>
+      <button class="w3-button w3-black w3-right w3-section" type="submit">
+      <i class="fa fa-paper-plane"></i> SEND
+      </button>
+      </form>
     </div>
 
 
