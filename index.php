@@ -129,7 +129,7 @@
       </div>
 
       <div>
-      <input class="" type="textarea" placeholder="Message"  name="message">
+      <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
       </div>
 
 
