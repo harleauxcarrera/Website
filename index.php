@@ -117,7 +117,7 @@
     </div>
     <!--CONTACT FORM-->
 <p> Send me a message!</p>
-<form action="./index.php" method="POST">
+<form action="./sendEmail.php" method="POST">
 <div class="w3-row-padding" style="margin:0 -16px 8px -16px; padding-right: 260px;">
 
       <div>
@@ -139,25 +139,7 @@
       </form>
     </div>
 
-<?php
-  $name = $_POST["name"];
-  $email = $_POST["email"];
-  $message = $_POST["message"];
 
-  $to = "harleauxcarrera@gmail.com";
-
-
-
-    $email_subject = "This a test bruh";
-    
-    $email_body = "You have received a new message from the user $name.\n".
-
-                            "Here is the message:\n $message".
-
-                            mail($to,$email_subject,$email_body);
-
-
- ?>
 
 
 
