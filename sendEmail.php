@@ -29,11 +29,11 @@
 
         $email_subject = "This a test bruh";
 
-        $email_body = "You have received a new message from the user $name.\n".
+        $body = "You have received a new message from the user $name.\n".
 
                                 "Here is the message:\n $message you can email him back at: $email".
 
-                                mail($to,$email_subject,$email_body);
+                                mail($to,$email_subject,$body);
 
 
      ?>
