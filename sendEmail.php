@@ -31,7 +31,7 @@
 
         $email_body = "You have received a new message from the user $name.\n".
 
-                                "Here is the message:\n $message".
+                                "Here is the message:\n $message you can email him back at: $email".
 
                                 mail($to,$email_subject,$email_body);
 
