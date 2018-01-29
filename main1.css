@@ -14,10 +14,13 @@ body, html {
 
 #aboutMe{
   padding: 36px 36px;
-  
+
 
 }
+#sentEmail{
+  margin: auto;
 
+}
 #myIcons{
   color: black;
 }

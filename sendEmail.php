@@ -2,11 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Email Confirmed!</title>
+    <link rel="stylesheet" href="/main1.css">
   </head>
   <body>
 
-    <div class="container">
+    <div class="col-lg-12" id="sentEmail">
 
       <h1>Thanks! Your email has been sent</h1>
       <a href="index.php">Go Back</a>
