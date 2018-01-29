@@ -19,23 +19,13 @@
 
 
     <?php
-      $name = $_POST["name"];
-      $email = $_POST["email"];
-      $message = $_POST["message"];
+$to = "harleauxcarrera@gmail.com";
+$subject = "My subject";
+$txt = "Hello world!";
+$headers = "From: webmaster@example.com" . "\r\n" .
+"CC: somebodyelse@example.com";
 
-      $to = "harleauxcarrera@gmail.com";
-
-
-
-        $email_subject = "This a test bruh";
-
-        $body = "You have received a new message from the user $name.\n".
-
-                                "Here is the message:\n $message you can email him back at: $email".
-
-                                mail($to,$email_subject,$body);
-
-
-     ?>
+mail($to,$subject,$txt,$headers);
+?>
   </body>
 </html>
