@@ -30,7 +30,7 @@ echo $message;
 
 $to = "harleauxcarrera@gmail.com";
 $subject = "Someone's contacting me from my webpage!";
-$txt = "Hey there!";
+$txt = "$name @: $email says: $message";
 
 
 mail($to,$subject,$txt);
