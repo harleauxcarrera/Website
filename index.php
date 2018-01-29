@@ -143,12 +143,13 @@
   $name = $_POST["name"];
   $email = $_POST["email"];
   $message = $_POST["message"];
+
   $to = "harleauxcarrera@gmail.com";
 
-  echo "hello";
-  echo $name;
+
 
     $email_subject = "This a test bruh";
+    
     $email_body = "You have received a new message from the user $name.\n".
 
                             "Here is the message:\n $message".
