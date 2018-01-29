@@ -17,11 +17,20 @@
 
 
 
+<!--handle email form-->
+<?php
 
-    <?php
+$name = $_POST["name"];
+$email = $_POST["email"];
+$message = $_POST["message"];
+
+echo $name;
+echo $email;
+echo $message;
+
 $to = "harleauxcarrera@gmail.com";
-$subject = "My subject";
-$txt = "Hello world!";
+$subject = "Someone's contacting me from my webpage!";
+$txt = $name . " says: " . $message " \n Their email: ". $email;
 $headers = "From: webmaster@example.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 
