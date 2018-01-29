@@ -7,7 +7,7 @@
   </head>
   <body>
 
-    <div class="col-lg-12" id="sentEmail">
+    <div class="col-lg-12" style="text-align: center;">
 
       <h1>Thanks! Your email has been sent</h1>
       <a href="index.php">Go Back</a>
