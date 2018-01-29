@@ -31,10 +31,9 @@ echo $message;
 $to = "harleauxcarrera@gmail.com";
 $subject = "Someone's contacting me from my webpage!";
 $txt = "Hey there!";
-$headers = "From: webmaster@example.com" . "\r\n" .
-"CC: somebodyelse@example.com";
 
-mail($to,$subject,$txt,$headers);
+
+mail($to,$subject,$txt);
 ?>
   </body>
 </html>
