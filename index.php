@@ -109,7 +109,7 @@
 
         </div>
         <div class="col-md-4">
-          <center><img class="img-fluid" src="./Pics/me.png" style="width: 100%; height:auto;"> </center>
+          <center><img class="img-fluid" src="./Pics/me.png" style="width: 100%; height:auto; border: 10px solid grey; border-radius: 10px;"> </center>
         </div>
         <div class="col-md-4">
           <p>
