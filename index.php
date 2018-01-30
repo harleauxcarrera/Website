@@ -102,7 +102,7 @@
           Hey there
         </div>
         <div class="col-md-4">
-          <center><img class="img-fluid" src="./Pics/me.png" style="width: 30%; height:auto;"> </center>
+          <center><img class="img-fluid" src="./Pics/me.png" style="width: 70%; height:auto;"> </center>
         </div>
         <div class="col-md-4">
           hey there
