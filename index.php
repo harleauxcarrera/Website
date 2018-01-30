@@ -91,7 +91,7 @@
 </div> -->
 
 
-<div id="aboutMe" style="border: 10px solid white; border-radius: 10px; margin: 36px; padding: 10px;">
+<div id="aboutMe" style="border: 10px solid white; border-radius: 10px; margin: 36px; padding: 30px;">
 		  <p> I am currently in my last semester at the University of Texas El Paso studying computer science and will graduate
 		    this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
 		    my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
