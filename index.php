@@ -21,7 +21,7 @@
 p{
   color: white;
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 </style>
 </head>
