@@ -97,8 +97,16 @@
 		    my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
 		  </p>
 
-      <div class="">
-        <center><img class="img-fluid" src="./Pics/me.png" style="width: 30%; height:auto;"> </center>
+      <div class="row">
+        <div class="col-md-4">
+          Hey there
+        </div>
+        <div class="col-md-4">
+          <center><img class="img-fluid" src="./Pics/me.png" style="width: 30%; height:auto;"> </center>
+        </div>
+        <div class="col-md-4">
+          hey there
+        </div>
       </div>
 
 </div>
