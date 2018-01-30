@@ -17,6 +17,12 @@
   <link rel="stylesheet" href="main1.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
+<style media="screen">
+p{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+</style>
 </head>
 
 <body>
