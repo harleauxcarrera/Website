@@ -94,18 +94,26 @@
 <div id="aboutMe" style="border: 10px solid white; border-radius: 10px; margin: 36px; padding: 30px;">
 		  <p> I am currently in my last semester at the University of Texas El Paso studying computer science and will graduate
 		    this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
-		    my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
+		    my favorite kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
 		  </p>
 
       <div class="row">
-        <div class="col-md-4" style="background-color: yellow;">
-          Hey there
+        <div class="col-md-4">
+          I've worked for the past year and a half at a department on campus called Academic Technologies.
+          We are a group of about 30 students ranging in majors from computer science, graphic design to mechanical engineering.
+          The department hosts STEAM workshops where we teach kids in elementary and highschool how to use Raspberry PIs, basics of 3D modeling and printing,
+          wireless networking as well as other areas of computer science. I'm part of the Projects team. We help develop mobile and web applications for
+          the department. I've had the opportunity to work with technologies such as HTML, CSS, PHP, MYSQL, and GIT.
+
         </div>
         <div class="col-md-4">
           <center><img class="img-fluid" src="./Pics/me.png" style="width: 100%; height:auto;"> </center>
         </div>
-        <div class="col-md-4" style="background-color: yellow;">
-          hey there
+        <div class="col-md-4">
+          I've recently been learning about a couple of JavaScript Frameworks such as Node.js and React.js.
+          I used MongoDB and the Express framwork to create a mock Yelp website that can be seen <a href="www.google.com">here.</a>
+          I'm currently developing a small web application in React.js that can be seen <a href="www.google.com">here.</a>
+          My most recent resume can be viewed <a href="www.google.com">here.</a>
         </div>
       </div>
 
@@ -121,10 +129,6 @@
     </div>
 
     <!--CONTACT FORM-->
-
-<br>
-<br>
-<br>
 
 <div style="padding: 106px 106px;">
 	<center><h1> Send me a message!</h1></center>
