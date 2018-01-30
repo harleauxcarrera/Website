@@ -99,21 +99,25 @@
 
       <div class="row">
         <div class="col-md-4">
-          I've worked for the past year and a half at a department on campus called Academic Technologies.
-          We are a group of about 30 students ranging in majors from computer science, graphic design to mechanical engineering.
-          The department hosts STEAM workshops where we teach kids in elementary and highschool how to use Raspberry PIs, basics of 3D modeling and printing,
-          wireless networking as well as other areas of computer science. I'm part of the Projects team. We help develop mobile and web applications for
-          the department. I've had the opportunity to work with technologies such as HTML, CSS, PHP, MYSQL, and GIT.
+          <p>
+            I've worked for the past year and a half at a department on campus called Academic Technologies.
+            We are a group of about 30 students ranging in majors from computer science, graphic design to mechanical engineering.
+            The department hosts STEAM workshops where we teach kids in elementary and highschool how to use Raspberry PIs, basics of 3D modeling and printing,
+            wireless networking as well as other areas of computer science. I'm part of the Projects team. We help develop mobile and web applications for
+            the department. I've had the opportunity to work with technologies such as HTML, CSS, PHP, MYSQL, and GIT.
+          </p>
 
         </div>
         <div class="col-md-4">
           <center><img class="img-fluid" src="./Pics/me.png" style="width: 100%; height:auto;"> </center>
         </div>
         <div class="col-md-4">
-          I've recently been learning about a couple of JavaScript Frameworks such as Node.js and React.js.
-          I used MongoDB and the Express framwork to create a mock Yelp website that can be seen <a href="www.google.com">here.</a>
-          I'm currently developing a small web application in React.js that can be seen <a href="www.google.com">here.</a>
-          My most recent resume can be viewed <a href="www.google.com">here.</a>
+          <p>
+            I've recently been learning about a couple of JavaScript Frameworks such as Node.js and React.js.
+            I used MongoDB and the Express framwork to create a mock Yelp website that can be seen <a href="www.google.com">here.</a>
+            I'm currently developing a small web application in React.js that can be seen <a href="www.google.com">here.</a>
+            My most recent resume can be viewed <a href="www.google.com">here.</a>
+          </p>
         </div>
       </div>
 
