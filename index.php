@@ -121,15 +121,15 @@
 <div class="w3-row-padding" style="margin:0 -16px 8px -16px; padding-right: 260px;">
 
       <div>
-      <input class="w3-input w3-border" type="text" placeholder="Name"  name="name">
+      <input class="w3-input w3-border" type="text" placeholder="Name"  name="name"required>
       </div>
 
       <div>
-      <input class="w3-input w3-border" type="text" placeholder="Email"  name="email">
+      <input class="w3-input w3-border" type="text" placeholder="Email"  name="email" required>
       </div>
 
       <div>
-      <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message">
+      <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message" required>
       </div>
 
 
