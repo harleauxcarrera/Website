@@ -96,7 +96,7 @@
 		    this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
 		    my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
 		  </p>
-		<center><img id="profilePic" src="./Pics/me.png" style="margin: auto;"> </center> 
+		<center><img class="img-fluid" src="./Pics/me.png" style="margin: auto;"> </center> 
 </div>
 
 <br>
@@ -107,7 +107,7 @@
     <div class="container">
     <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px; margin: auto;"></div>
     </div>
-  
+
     <!--CONTACT FORM-->
 
 <br>
@@ -117,7 +117,7 @@
 <div>
 	<center><h1> Send me a message!</h1></center>
 	<form action="./sendEmail.php" method="POST" style="width: 50%; margin: auto;">
-		
+
 
 		      <div>
 		      <input class="w3-input w3-border" type="text" placeholder="Name"  name="name"required>
@@ -132,17 +132,17 @@
 		      </div>
 
 
-		      <button class="w3-button w3-black w3-right  w3-section" type="submit" > 
+		      <button class="w3-button w3-black w3-right  w3-section" type="submit" >
 
 
 		      <i class="fa fa-paper-plane"></i> SEND
 		      </button>
-		     
+
 	</form>
 
 </div>
 
-    
+
 
 
 
