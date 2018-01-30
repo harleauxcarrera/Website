@@ -118,7 +118,7 @@
 <br>
 <br>
 
-<div>
+<div style="padding: 36px 36px;">
 	<center><h1> Send me a message!</h1></center>
 	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
 
