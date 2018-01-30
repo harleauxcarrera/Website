@@ -91,7 +91,7 @@
 </div> -->
 
 
-<div id="aboutMe" style="border: 10px solid white; border-radius: 10px; margin: 16px;">
+<div id="aboutMe" style="border: 10px solid white; border-radius: 10px; margin: 36px;">
 		  <p> I am currently in my last semester at the University of Texas El Paso studying computer science and will graduate
 		    this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
 		    my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
@@ -118,7 +118,7 @@
 <br>
 <br>
 
-<div style="padding: 76px 76px;">
+<div style="padding: 106px 106px;">
 	<center><h1> Send me a message!</h1></center>
 	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
 
