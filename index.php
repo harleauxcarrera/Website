@@ -102,8 +102,8 @@
           <p>
             I've worked for the past year and a half at a department on campus called Academic Technologies.
             We are a group of about 30 students ranging in majors from computer science, graphic design to mechanical engineering.
-            The department hosts STEAM workshops where we teach kids in elementary and highschool how to use Raspberry PIs, basics of 3D modeling and printing,
-            wireless networking as well as other areas of computer science. I'm part of the Projects team. We help develop mobile and web applications for
+            The department hosts STEAM workshops where we teach kids in elementary and highschool how to use Raspberry PIs, basics of 3D modeling,
+            wireless networking and other areas of computer science. The computer science students make up whats called the 'Projects' team. We help develop mobile and web applications for
             the department. I've had the opportunity to work with technologies such as HTML, CSS, PHP, MYSQL, and GIT.
           </p>
 
