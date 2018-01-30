@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 <style media="screen">
-p{
+p, h1{
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
