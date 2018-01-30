@@ -96,7 +96,11 @@
 		    this May. I hope to find a job where I can put my skillset to use. Web and mobile applications are among
 		    my top kinds of software development. I also enjoy wireless networks, cyber security and other areas of computer science.
 		  </p>
-		<center><img class="img-fluid" src="./Pics/me.png" style="margin: auto;"> </center> 
+
+      <div class="">
+        <center><img class="img-fluid" src="./Pics/me.png" style="width: 50%; height:auto;"> </center>
+      </div>
+
 </div>
 
 <br>
@@ -116,7 +120,7 @@
 
 <div>
 	<center><h1> Send me a message!</h1></center>
-	<form action="./sendEmail.php" method="POST" style="width: 50%; margin: auto;">
+	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
 
 
 		      <div>
