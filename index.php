@@ -98,7 +98,7 @@
 		  </p>
 
       <div class="">
-        <center><img class="img-fluid" src="./Pics/me.png" style="width: 50%; height:auto;"> </center>
+        <center><img class="img-fluid" src="./Pics/me.png" style="width: 30%; height:auto;"> </center>
       </div>
 
 </div>
