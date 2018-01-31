@@ -122,9 +122,9 @@ p, h1{
         <div class="col-md-4">
           <p>
             I've recently been learning about a couple of JavaScript Frameworks such as Node.js and React.js.
-            I used MongoDB and the Express framwork to create a mock Yelp website that can be seen <a href="www.google.com">here.</a>
-            I'm currently developing a small web application in React.js that can be seen <a href="www.google.com">here.</a>
-            My most recent resume can be viewed <a href="www.google.com">here.</a>
+            I used MongoDB and the Express framwork to create a mock Yelp website that can be seen <a href="http://salty-meadow-65933.herokuapp.com">here.</a>
+            I'm currently developing a small web application in React.js that can be seen <a href="http://quiet-coast-17722.herokuapp.com">here.</a>
+            My most recent resume can be viewed <object width="400" height="400" data="resume.pdf"></object>
           </p>
         </div>
       </div>
