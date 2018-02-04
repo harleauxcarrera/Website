@@ -34,7 +34,11 @@ $subject = "Someone's contacting me from my webpage!";
 $txt = "Sender: $name\n Email Address: $email\n Message: $message";
 
 
-mail($to,$subject,$txt);
+
+if($message != " ") && $message != "  "{
+  mail($to,$subject,$txt);
+}
+
 ?>
   </body>
 </html>
