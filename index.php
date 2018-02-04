@@ -152,11 +152,11 @@ p, h1{
 		      </div>
 
 		      <div>
-		      <input class="w3-input w3-border" type="text" placeholder="Email"  name="email" required>
+		      <input class="w3-input w3-border" type="email" placeholder="Email"  name="email" required>
 		      </div>
 
 		      <div>
-		      <input class="w3-input w3-border" type="textarea" placeholder="Message"  name="message" required>
+		      <input  id ="messageInput" class="w3-input w3-border" type="textarea" placeholder="Message"  name="message" required>
 		      </div>
 
 
