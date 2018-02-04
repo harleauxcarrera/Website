@@ -35,7 +35,7 @@ $txt = "Sender: $name\n Email Address: $email\n Message: $message";
 
 
 
-if($message != " ") && $message != "  "{
+if($message != " " && $message != "  "){
   mail($to,$subject,$txt);
 }
 
