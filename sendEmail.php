@@ -30,10 +30,10 @@
 
 
     if (ctype_space($message)) {
-          alert("please eneter a valid message input");
+          echo "please eneter a valid message input";
       } else {
         mail($to, $subject, $txt);
       }
-     ?>  
+     ?>
   </body>
 </html>
