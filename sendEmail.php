@@ -29,7 +29,6 @@
           document.getElementById("title").innerHTML = "Invalid Input";
     </script>;
       <?php
-        echo "only whitespace";
           } else {
               mail($to, $subject, $txt);
               }
