@@ -145,30 +145,19 @@ p, h1{
 <div style="padding: 106px 106px;">
 	<center><h1> Send me a message!</h1></center>
 	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
-
-
 		      <div>
-		      <input class="w3-input w3-border" type="text" placeholder="Name"  name="name"required>
+		          <input class="w3-input w3-border" type="text" placeholder="Name"  name="name"required>
 		      </div>
-
 		      <div>
-		      <input class="w3-input w3-border" type="email" placeholder="Email"  name="email" required>
+		          <input class="w3-input w3-border" type="email" placeholder="Email"  name="email" required>
 		      </div>
-
 		      <div>
-		      <input  id ="messageInput" class="w3-input w3-border" type="textarea" placeholder="Message"  name="message" required>
+		          <input  id ="messageInput" class="w3-input w3-border" type="textarea" placeholder="Message"  name="message" required>
 		      </div>
-
-        
-
-
 		      <button class="w3-button w3-black w3-right  w3-section" type="submit" >
-
-
-		      <i class="fa fa-paper-plane"></i> SEND
+		          <i class="fa fa-paper-plane"></i> SEND
 		      </button>
-
-	</form>
+	 </form>
 
 </div>
 

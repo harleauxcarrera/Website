@@ -11,9 +11,9 @@ p{
 }
 body, html {
     height: 100%;
-    color: #777;
+    color: white;
     line-height: 1.8;
-    background-color: black;
+    background-color: grey;
 }
 
 #aboutMe{
