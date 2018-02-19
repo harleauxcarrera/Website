@@ -39,11 +39,10 @@ if (ctype_space($message)) {
   } else {
       echo "The string '$message' contains non-whitespace characters.\n";
   }
-
-
-
-
-
 ?>
+
+<h1>The message consits of only white space<?php echo $message  ?></h1>
+<h1>The message consits of only white space<?php echo $message ?></h1>
+
   </body>
 </html>
