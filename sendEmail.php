@@ -20,12 +20,13 @@
     $to = "harleauxcarrera@gmail.com";
     $subject = "Someone's contacting me from my webpage!";
     $txt = "Sender: $name\n Email Address: $email\n Message: $message";
-    if (ctype_space($message)) {
+
+    //if (ctype_space($message)) {
           document.getElementById("myHeading").innerHTML = "Please enter a valid message input";
           document.getElementById("title").innerHTML = "Invalid Input";
-      } else {
-        mail($to, $subject, $txt);
-      }
+      //} else {
+      //  mail($to, $subject, $txt);
+    //  }
      ?>
   </body>
 </html>
