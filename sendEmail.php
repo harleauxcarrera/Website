@@ -20,17 +20,19 @@
     $to = "harleauxcarrera@gmail.com";
     $subject = "Someone's contacting me from my webpage!";
     $txt = "Sender: $name\n Email Address: $email\n Message: $message";
-    if (ctype_space($message)) {
 
-            echo "<script>
-                  document.getElementById("myHeading").innerHTML = "Please enter a valid message input";
-                  document.getElementById("title").innerHTML = "Invalid Input";
-                </script>";
-                
-                echo "only whitespace";
-      } else {
-       mail($to, $subject, $txt);
-      }
-     ?>
+
+    if (ctype_space($message)) {
+  ?>
+    <script>
+          document.getElementById("myHeading").innerHTML = "Please enter a valid message input";
+          document.getElementById("title").innerHTML = "Invalid Input";
+    </script>;
+      <?php
+        echo "only whitespace";
+          } else {
+              mail($to, $subject, $txt);
+              }
+        ?>
   </body>
 </html>
