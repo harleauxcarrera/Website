@@ -8,7 +8,7 @@
   <body>
     <div class="col-lg-12" style="text-align: center;">
       <h1 id="myHeading">Thanks! Your email has been sent</h1>
-      <button href="./index.php" class="w3-button w3-black" type="submit" >Go Back</button>
+      <a href="./index.php"><button href="./index.php" class="w3-button w3-black" type="submit" >Go Back</a>
 
     </div>
 
