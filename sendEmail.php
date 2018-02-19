@@ -2,21 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Email Confirmed!</title>
+    <title id="title">Email Confirmed!</title>
     <link rel="stylesheet" href="/main1.css">
   </head>
   <body>
-
     <div class="col-lg-12" style="text-align: center;">
-
-      <h1>Thanks! Your email has been sent</h1>
+      <h1 id="myHeading">Thanks! Your email has been sent</h1>
       <a href="index.php">Go Back</a>
-
     </div>
-
-
-
-
 
     <?php
     //save form values
@@ -27,10 +20,9 @@
     $to = "harleauxcarrera@gmail.com";
     $subject = "Someone's contacting me from my webpage!";
     $txt = "Sender: $name\n Email Address: $email\n Message: $message";
-
-
     if (ctype_space($message)) {
-          echo "please eneter a valid message input";
+          document.getElementById("myHeading").innerHTML = "Please enter a valid message input";
+          document.getElementById("title").innerHTML = "Invalid Input";
       } else {
         mail($to, $subject, $txt);
       }
