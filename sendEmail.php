@@ -34,11 +34,11 @@ $subject = "Someone's contacting me from my webpage!";
 $txt = "Sender: $name\n Email Address: $email\n Message: $message";
 
 
-   if (trim($message == ''){
-       echo "message input not valid";
+if (ctype_space($message)) {
+      echo "The string '$message' consists of whitespace characters only.\n";
+  } else {
+      echo "The string '$message' contains non-whitespace characters.\n";
   }
-  //   mail($to, $subject, $txt);
-  // }
 
 
 
