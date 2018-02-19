@@ -53,7 +53,7 @@ p, h1{
 Hey
 </div>
 
-<div style="background-color: red; float: left;" class="col-lg-8">
+<div style="background-color: red; float: right;" class="col-lg-8">
 Whasts good
 </div>
 
