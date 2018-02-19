@@ -37,12 +37,15 @@ $txt = "Sender: $name\n Email Address: $email\n Message: $message";
 if (ctype_space($message)) {
       echo "The string '$message' consists of whitespace characters only.\n";
   } else {
-      echo "The string '$message' contains non-whitespace characters.\n";
+    mail($to, $subject, $txt);
   }
+    
+
+
+
+
+
+
 ?>
-
-<h1>The message consits of only white space<?php echo $message  ?></h1>
-<h1>The message consits of only white space<?php echo $message ?></h1>
-
   </body>
 </html>
