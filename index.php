@@ -50,11 +50,11 @@ p, h1{
 
 <div class="row">
 <div style="background-color: yellow"; class="col-md-4">
-
+Hey
 </div>
 
 <div style="background-color: red"; class="col-lg-8">
-
+Whasts good
 </div>
 
 
