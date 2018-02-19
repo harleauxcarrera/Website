@@ -48,6 +48,17 @@ p, h1{
   </div>
 </div>
 
+<div class="row">
+<div style="background-color: yellow"; class="col-md-4">
+
+</div>
+
+<div style="background-color: red"; class="col-lg-8">
+
+</div>
+
+
+</div>
 
 
         <!--Google Map -->
