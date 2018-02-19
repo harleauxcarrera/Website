@@ -34,9 +34,9 @@ $subject = "Someone's contacting me from my webpage!";
 $txt = "Sender: $name\n Email Address: $email\n Message: $message";
 
 
-  // if (trim($message == ''){
-  //       echo "message input not valid";
-  // }else{
+   if (trim($message == ''){
+       echo "message input not valid";
+  }
   //   mail($to, $subject, $txt);
   // }
 
