@@ -144,7 +144,7 @@ p, h1{
 
 <div style="padding: 106px 106px;">
 	<center><h1> Send me a message!</h1></center>
-	<form action="./index.php" method="POST" style="width: 100%; margin: auto;">
+	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
 
 
 		      <div>
@@ -159,23 +159,7 @@ p, h1{
 		      <input  id ="messageInput" class="w3-input w3-border" type="textarea" placeholder="Message"  name="message" required>
 		      </div>
 
-          <?php
-          //save form values
-          $name = $_POST["name"];
-          $email = $_POST["email"];
-          $message = $_POST["message"];
-          //set up mail() parameters
-          $to = "harleauxcarrera@gmail.com";
-          $subject = "Someone's contacting me from my webpage!";
-          $txt = "Sender: $name\n Email Address: $email\n Message: $message";
-
-
-          if (ctype_space($message)) {
-                alert("please eneter a valid message input");
-            } else {
-              mail($to, $subject, $txt);
-            }
-           ?>
+        
 
 
 		      <button class="w3-button w3-black w3-right  w3-section" type="submit" >

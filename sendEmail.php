@@ -18,34 +18,22 @@
 
 
 
-<!--handle email form-->
-<?php
-
-$name = $_POST["name"];
-$email = $_POST["email"];
-$message = $_POST["message"];
-
-// echo $name;
-// echo $email;
-// echo $message;
-
-$to = "harleauxcarrera@gmail.com";
-$subject = "Someone's contacting me from my webpage!";
-$txt = "Sender: $name\n Email Address: $email\n Message: $message";
+    <?php
+    //save form values
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $message = $_POST["message"];
+    //set up mail() parameters
+    $to = "harleauxcarrera@gmail.com";
+    $subject = "Someone's contacting me from my webpage!";
+    $txt = "Sender: $name\n Email Address: $email\n Message: $message";
 
 
-if (ctype_space($message)) {
-      echo "The string '$message' consists of whitespace characters only.\n";
-  } else {
-    mail($to, $subject, $txt);
-  }
-    
-
-
-
-
-
-
-?>
+    if (ctype_space($message)) {
+          alert("please eneter a valid message input");
+      } else {
+        mail($to, $subject, $txt);
+      }
+     ?>  
   </body>
 </html>
