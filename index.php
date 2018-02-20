@@ -54,7 +54,7 @@ p, h1{
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:200px; margin: auto;"></div>
     </div>
     <!--Contact Form-->
-    <div class="col-md-8" style="background-image: url("/Pics/redTexture.jpg");">            
+    <div class="col-md-8" style="background-image: url("redTexture.jpg");">            
     	<center><h1> Send me a message!</h1></center>
     	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
     		      <div>
