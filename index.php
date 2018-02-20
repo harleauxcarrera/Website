@@ -48,7 +48,7 @@ p, h1{
   </div>
 </div>
 
-  <div class="row" style="padding: 0px 0px; background-color: yellow">
+  <div class="row" style="padding: 0px 0px; background-image: url("http://m.rgbimg.com/cache1och38/users/z/ze/zela/600/mqhZ0dy.jpg");">
     <!--Google Map -->
     <div class="col-md-4">
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:200px; margin: auto;"></div>
