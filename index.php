@@ -26,6 +26,7 @@ p{
 
 h1{
   color: black;
+  font-family: 'Oswald', sans-serif;
 }
 #aboutMe{
 padding: 36px 36px;
