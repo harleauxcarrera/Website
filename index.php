@@ -25,8 +25,13 @@ p{
 }
 
 h1{
-  color: black;
+  color: white;
   font-family: 'Oswald', sans-serif;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 #aboutMe{
 padding: 36px 36px;
