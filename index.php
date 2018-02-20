@@ -34,6 +34,12 @@ padding: 36px 36px;
  border: none;
 }
 
+#myForm input {
+  color: black;
+}
+
+
+
 </style>
 </head>
 
@@ -65,7 +71,7 @@ padding: 36px 36px;
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:200px; margin: auto;"></div>
     </div>
     <!--Contact Form-->
-    <div class="col-md-8">
+    <div id= "myForm" class="col-md-8">
     	<center><h1> Send me a message!</h1></center>
     	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
     		      <div>
