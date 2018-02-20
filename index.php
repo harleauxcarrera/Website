@@ -18,14 +18,17 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 <style media="screen">
-p, h1{
+p{
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
 }
 
+h1{
+  color: black;
+}
 #aboutMe{
-padding: 0px 0px;
+padding: 36px 36px;
  background-image: url("http://m.rgbimg.com/cache1och38/users/z/ze/zela/600/mqhZ0dy.jpg");
  border: none;
 }
