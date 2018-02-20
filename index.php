@@ -48,7 +48,7 @@ p, h1{
   </div>
 </div>
 
-  <div class="row">
+  <div class="row" style="padding: 60px 60px;">
     <!--Google Map -->
     <div class="col-md-4">
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:200px; margin: auto;"></div>
