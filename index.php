@@ -51,10 +51,10 @@ p, h1{
   <div class="row">
     <!--Google Map -->
     <div class="col-md-4">
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:50%;height:200px; margin: auto;"></div>
+      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:200px; margin: auto;"></div>
     </div>
     <!--Contact Form-->
-    <div class="col-md-8" style="padding: 106px 106px;">
+    <div class="col-md-8">
     	<center><h1> Send me a message!</h1></center>
     	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
     		      <div>
