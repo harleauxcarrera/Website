@@ -25,8 +25,9 @@ p, h1{
 }
 
 #aboutMe{
-  padding: 0px 0px;
+padding: 0px 0px;
  background-image: url("http://m.rgbimg.com/cache1och38/users/z/ze/zela/600/mqhZ0dy.jpg");
+ border: none;
 }
 
 </style>
