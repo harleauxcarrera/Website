@@ -51,7 +51,7 @@ p, h1{
 
         <!--Google Map -->
     <div class="container">
-    <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px; margin: auto;"></div>
+    <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:200px; margin: auto;"></div>
     </div>
 
     <!--CONTACT FORM-->
