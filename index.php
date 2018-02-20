@@ -23,6 +23,12 @@ p, h1{
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
 }
+
+#aboutMe{
+  padding: 0px 0px;
+ background-image: url("http://m.rgbimg.com/cache1och38/users/z/ze/zela/600/mqhZ0dy.jpg");
+}
+
 </style>
 </head>
 
@@ -48,7 +54,7 @@ p, h1{
   </div>
 </div>
 
-  <div class="row" style="padding: 0px 0px; background-image: url("http://m.rgbimg.com/cache1och38/users/z/ze/zela/600/mqhZ0dy.jpg");">
+  <div id = "aboutMe" class="row">
     <!--Google Map -->
     <div class="col-md-4">
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:200px; margin: auto;"></div>
