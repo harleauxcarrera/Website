@@ -33,6 +33,7 @@ h1{
 		-2px 2px 0 #000,
 		2px 2px 0 #000;
 }
+
 #aboutMe{
 padding: 36px 36px;
  background-image: url("http://m.rgbimg.com/cache1och38/users/z/ze/zela/600/mqhZ0dy.jpg");
@@ -71,12 +72,9 @@ padding: 36px 36px;
 </div>
 
   <div id = "aboutMe" class="row">
-    <!--Google Map -->
-    <div class="col-md-4">
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:200px; margin: auto;"></div>
-    </div>
+
     <!--Contact Form-->
-    <div id= "myForm" class="col-md-8">
+    <div id= "myForm" class="col-lg-12">
     	<center><h1> Send me a message!</h1></center>
     	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
     		      <div>
