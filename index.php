@@ -71,6 +71,12 @@ padding: 36px 36px;
   </div>
 </div>
 
+<video width="400" controls>
+  <source src="timeLapse.mp4" type="video/mp4">
+
+  
+</video>
+
   <div id = "aboutMe" class="row">
 
     <!--Contact Form-->
