@@ -71,16 +71,20 @@ padding: 36px 36px;
   </div>
 </div>
 
-<video width="50%" autoplay="autoplay" loop="true">
+<video width="50%" autoplay="autoplay" loop="">
   <source src="timeLapse.mp4" type="video/mp4">
 
 
 </video>
 
   <div id = "aboutMe" class="row">
+<div class="col-md-4">
+  <video width="50%" autoplay="autoplay" loop="true">
+    <source src="timeLapse.mp4" type="video/mp4">
 
+</div>
     <!--Contact Form-->
-    <div id= "myForm" class="col-lg-12">
+    <div id= "myForm" class="col-lg-8">
     	<center><h1> Send me a message!</h1></center>
     	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
     		      <div>
