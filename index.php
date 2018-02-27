@@ -71,18 +71,15 @@ padding: 36px 36px;
   </div>
 </div>
 
-<video width="50%" autoplay="autoplay" loop="">
-  <source src="timeLapse.mp4" type="video/mp4">
 
 
-</video>
-
-  <div id = "aboutMe" class="row">
-<div class="col-md-4">
-  <video width="50%" autoplay="autoplay" loop="true">
+<div class="container">
+  <video width="50%" autoplay="autoplay" loop="">
     <source src="timeLapse.mp4" type="video/mp4">
-
+  </video>
 </div>
+  <div id = "aboutMe" class="row">
+
     <!--Contact Form-->
     <div id= "myForm" class="col-lg-8">
     	<center><h1> Send me a message!</h1></center>
