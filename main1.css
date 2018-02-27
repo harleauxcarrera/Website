@@ -41,7 +41,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('./Pics/Universe.jpg');
+    background-image: url('./timeLapse.mp4');
     min-height: 100%;
 
 }
