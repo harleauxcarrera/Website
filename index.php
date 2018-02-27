@@ -71,7 +71,7 @@ padding: 36px 36px;
   </div>
 </div>
 
-<video width="50%" autoplay="autoplay">
+<video width="50%" autoplay="autoplay" loop="true">
   <source src="timeLapse.mp4" type="video/mp4">
 
 
