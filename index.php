@@ -116,7 +116,7 @@ padding: 36px 36px;
 
 
 <div class="bgimg-3">
-  <div class="col-md-4">
+  <div class="col-md-4" style="background-color: white">
     <img id = "profilePic" src="Profile2.jpg" alt="">
   </div>
   <div class="overlay">
