@@ -50,7 +50,7 @@ padding: 36px 36px;
   margin: 10px 10px;
   margin-bottom: 100px;
   width: 50%;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 

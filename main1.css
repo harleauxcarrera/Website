@@ -56,7 +56,7 @@ body, html {
 .bgimg-3 {
     background-image: url("./Pics/Plaza.png");
     min-height: 400px;
-		opacity: 0.33;
+		opacity: 50%;
 }
 /* Fourth image (Skills) */
 .bgimg-4 {
