@@ -50,6 +50,7 @@ padding: 36px 36px;
   margin: 10px 10px;
   margin-bottom: 100px;
   width: 50%;
+  border-radius: 10px;
 }
 
 
@@ -81,7 +82,7 @@ padding: 36px 36px;
 
 
 
-<div id = "aboutMe" class="row">
+<div class= "bgimg-2" id = "aboutMe" class="row">
 
   <div class="col-md-4">
     <img id = "profilePic" src="Profile2.jpg" alt="">
