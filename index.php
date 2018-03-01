@@ -79,7 +79,7 @@ padding: 36px 36px;
 #profilePic{
 
 
-  width: 80%;
+  width: 60%;
   border-radius: 30px;
 }
 
