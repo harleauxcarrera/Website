@@ -87,6 +87,13 @@ padding: 36px 36px;
     <img id = "profilePic" src="Profile2.jpg" alt="">
   </div>
 
+  <div class="col-md-4">
+    <h1>Education</h1>
+  </div>
+
+  <div class="col-md-4">
+    <h1>Experience</h1>
+  </div>
 
 </div>
 
