@@ -52,6 +52,9 @@ padding: 36px 36px;
   width: 50%;
   border-radius: 30px;
 }
+#profilePic: hover{
+opacity: 0.33;
+}
 
 
 
