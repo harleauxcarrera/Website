@@ -93,7 +93,7 @@ padding: 36px 36px;
   <div id = "Contact" class="row">
 
     <!--Contact Form-->
-    <div id= "myForm" class="col-lg-8">
+    <div id= "myForm" class="col-lg-12">
     	<center><h1> Send me a message!</h1></center>
     	<form action="./sendEmail.php" method="POST" style="width: 100%; margin: auto;">
     		      <div>
