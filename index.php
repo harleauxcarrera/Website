@@ -62,7 +62,7 @@ padding: 36px 36px;
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.contain:hover .overlay {
   opacity: 1;
 }
 
@@ -115,7 +115,7 @@ padding: 36px 36px;
 <div class= "bgimg-3" id = "aboutMe" class="row">
 
 
-<div class="">
+<div class="contain">
   <div class="col-md-4">
     <img id = "profilePic" src="Profile2.jpg" alt="">
   </div>
