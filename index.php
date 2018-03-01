@@ -122,9 +122,6 @@ padding: 36px 36px;
   <div class="overlay">
   <div class="text">Hey there!</div>
   </div>
-</div>
-
-
   <div class="col-md-4">
     <h1>Education</h1>
   </div>
@@ -132,6 +129,10 @@ padding: 36px 36px;
   <div class="col-md-4">
     <h1>Experience</h1>
   </div>
+</div>
+
+
+
 
 </div>
 
