@@ -115,7 +115,7 @@ padding: 36px 36px;
 <div class= "contain" id = "aboutMe" class="row">
 
 
-<div class="contain">
+<div class="bgimg-3">
   <div class="col-md-4">
     <img id = "profilePic" src="Profile2.jpg" alt="">
   </div>
