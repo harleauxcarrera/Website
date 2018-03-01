@@ -46,12 +46,7 @@ padding: 36px 36px;
 #myForm input {
   color: black;
 }
-#profilePic{
-  margin: 10px 10px;
-  margin-bottom: 100px;
-  width: 50%;
-  border-radius: 30px;
-}
+
 
 
 .overlay {
@@ -80,6 +75,12 @@ padding: 36px 36px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+#profilePic{
+  margin: 10px 10px;
+  margin-bottom: 100px;
+  width: 50%;
+  border-radius: 30px;
 }
 
 
@@ -116,7 +117,7 @@ padding: 36px 36px;
 
 <div class="container">
   <div class="col-md-4">
-    <img src="Profile2.jpg" alt="">
+    <img id = "profilePic" src="Profile2.jpg" alt="">
   </div>
   <div class="overlay">
   <div class="text">Hey there!</div>
