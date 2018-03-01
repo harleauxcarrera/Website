@@ -48,6 +48,7 @@ padding: 36px 36px;
 }
 #profilePic{
   margin: 10px 10px;
+  margin-bottom: 100px;
   width: 50%;
 }
 
