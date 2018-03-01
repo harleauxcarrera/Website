@@ -52,8 +52,34 @@ padding: 36px 36px;
   width: 50%;
   border-radius: 30px;
 }
-#profilePic: hover{
-opacity: 0.33;
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
@@ -87,9 +113,16 @@ opacity: 0.33;
 
 <div class= "bgimg-3" id = "aboutMe" class="row">
 
+
+<div class="container">
   <div class="col-md-4">
-    <img id = "profilePic" src="Profile2.jpg" alt="">
+    <img src="Profile2.jpg" alt="">
   </div>
+  <div class="overlay">
+  <div class="text">Hey there!</div>
+  </div>
+</div>
+
 
   <div class="col-md-4">
     <h1>Education</h1>
