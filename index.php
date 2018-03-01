@@ -112,7 +112,7 @@ padding: 36px 36px;
 
 
 
-<div class= "bgimg-3" id = "aboutMe" class="row">
+<div class= "contain" id = "aboutMe" class="row">
 
 
 <div class="contain">
