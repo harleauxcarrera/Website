@@ -77,9 +77,9 @@ padding: 36px 36px;
   text-align: center;
 }
 #profilePic{
-  margin: 10px 10px;
-  margin-bottom: 100px;
-  width: 50%;
+
+
+  width: 80%;
   border-radius: 30px;
 }
 
