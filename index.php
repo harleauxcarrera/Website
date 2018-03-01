@@ -33,8 +33,11 @@ h1{
 		-2px 2px 0 #000,
 		2px 2px 0 #000;
 }
-
 #aboutMe{
+  background-color: white;
+}
+
+#Contact{
 padding: 36px 36px;
  background-image: url("http://m.rgbimg.com/cache1och38/users/z/ze/zela/600/mqhZ0dy.jpg");
  border: none;
@@ -42,6 +45,10 @@ padding: 36px 36px;
 
 #myForm input {
   color: black;
+}
+#profilePic{
+  margin: 10px 10px;
+  width: 50%;
 }
 
 
@@ -68,17 +75,21 @@ padding: 36px 36px;
 <div class="bgimg-1" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span> CARLOS HERRERA</span>
+</div>
+</div>
+
+
+
+<div id = "aboutMe" class="row">
+
+  <div class="col-md-4">
+    <img id = "profilePic" src="Profile2.jpg" alt="">
   </div>
+
+
 </div>
 
-
-
-<div class="container">
-  <video width="50%" autoplay="autoplay" loop="">
-    <source src="timeLapse.mp4" type="video/mp4">
-  </video>
-</div>
-  <div id = "aboutMe" class="row">
+  <div id = "Contact" class="row">
 
     <!--Contact Form-->
     <div id= "myForm" class="col-lg-8">
