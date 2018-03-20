@@ -11,25 +11,23 @@ h1{
   font-family: 'Metal Mania', cursive;
   font-size:300px;
 }
-#about{
+.about{
 
   background-color: #EAEAEA;
   border-radius: 6px;
-  padding: 20px 20px;
+
 }
 
 .titles{
 border-left: solid 2px grey;
 background-color: #f7f1e3;
-padding-bottom: 70px;
-
+border-radius: 6px;
 
 }
 .dates{
   background-color: #f7f1e3;
-  padding-bottom: 600px;
   border-right: solid 2px grey;
-
+  border-radius: 6px;
 }
 
 /*-------------------------------*/
