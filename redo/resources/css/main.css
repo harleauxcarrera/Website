@@ -2,117 +2,80 @@
 /*---- BASIC SETUP ----*/
 /*-------------------------------*/
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
-html{
-  background-color: #fff;
-  color: #555;
-  font-family: 'Lato', 'Arial', 'sans-serif';
-  font-weight: 300;
-  font-size: 20px;
-  text-rendering: optimizeLegibility; /*Improves readability of font*/
-}
+
 h1{
   font-family: 'Metal Mania', cursive;
-  margin-top: 146px;
-  opacity: .36;
-
+  font-size:300px;
 }
-h1:hover{
-  opacity: 1.0;
+#about{
 
-  transition: opacity 1.36s;
-
+  background-color: #EAEAEA;
+  border-radius: 6px;
+  padding: 20px 20px;
 }
 
-div.name{
-  text-align: center;
+.titles{
+border-left: solid 2px grey;
+background-color: #f7f1e3;
+padding-bottom: 70px;
+
+
 }
+.dates{
+  background-color: #f7f1e3;
+  padding-bottom: 600px;
+  border-right: solid 2px grey;
+
+}
+
 /*-------------------------------*/
-/*---- REUSBALE COMPONENTS ----*/
-/*-------------------------------*/
-
-.row{
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-
-
+  /*---- NAV ----*/
   /*-------------------------------*/
-  /*----NAV BAR ----*/
-  /*-------------------------------*/
-.main-nav{
-  float:right;
-  list-style:none;
-  padding: 10px 0;
 
-}
-.main-nav li{
-  display: inline-block;
-  padding: 10px 16px;
-  font-size:160%;
-}
-.main-nav li a{
-  opacity: .46;
-}
-
-.main-nav li a:hover,
-.main-nav li a:active{
-  opacity: .9;
-  border-bottom: solid 2px #800000;
-  transition: opacity 0.2s, border-bottom 0.2s;
-}
-
-.logo{
-    height: 180px;
-    padding-top: 30px;
-    border-radius: 60px;
-    opacity: 0.6;
+  .navbar{
+    padding-right: 50px;
+    padding-top:10px;
   }
 
-.logo:hover{
-  transform: rotate(360deg);
-  transition: transform 0.36s;
+.navbar li{
+  display: inline-block;
 }
-
-.main-nav li a:link,
-.main-nav li a:visited{
-  padding: 8px 0;
+.navbar a{
+  padding: 10px 10px;
   text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 90%
-}
+  color: black;
+  font-size: 260%;
 
+}
+.navbar a:visited,
+.navbar a:active{
+  text-decoration: none;
+}
+.navbar a:hover{
+  text-decoration: none;
+  border-botom: solid 2px red;
+  transition: border-botom 0.2s;
+}
 /*-------------------------------*/
   /*---- HEADER ----*/
   /*-------------------------------*/
-  header{
+  .header{
     /*add linear gradient for transperancy on top of image, black rgba color,.7 percent*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.43),rgba(0, 0, 0, 0.43)), url(../img/nebula.jpg);
+
     background-size: cover;
     background-position: center;
     height: 100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-  }
-
-  /*-------------------------------*/
-    /*---- ABOUTME ----*/
-    /*-------------------------------*/
-
-.right{
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-color: red;
 }
-.right h2{
-  color:black;
+
+.jumbotron img{
+  width: 80%;
+  height: auto;
+  border-radius: 93px;
 }
