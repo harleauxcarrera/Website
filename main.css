@@ -8,8 +8,11 @@
 
 
 h1{
-  font-family: 'Metal Mania', cursive;
+  font-family: 'Crimson Text', serif;
   font-size:300px;
+}
+h2,h3,h4{
+  font-family: 'Crimson Text', serif;
 }
 .about{
 
