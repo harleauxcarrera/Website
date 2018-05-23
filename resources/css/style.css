@@ -1,0 +1,104 @@
+/*-------------------------------*/
+/*---- BASIC SETUP ----*/
+/*-------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: grey;
+}
+body{
+  background-color: grey;
+}
+
+h1{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Six Caps', cursive;
+  letter-spacing: 2px;
+  font-size: 200px;
+
+}
+h3,h4{
+  color: white;
+  font-family: 'Chewy', cursive;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/*-------------------------------*/
+/*---- REUSBALE COMPONENTS ----*/
+/*-------------------------------*/
+
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url(../img/damn2.gif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#headerTop{
+  padding-top:300px;
+}
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+#body{
+
+}
+
+.space{
+  padding: 145px;
+}
+
+input{
+  text-align: center;
+}
+
+.form-section input[type="email"] {
+    border: 0 none;
+    border-radius: 25px;
+    color: #9b9b9b;
+    font-size: 16px;
+    font-style: normal;
+    height: 51px;
+    letter-spacing: 0;
+    text-align: center;
+    width: 460px;
+}
+.form-section input[type="submit"] {
+    background: #aaa69d none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 25px;
+    color: #fff;
+    height: 51px;
+    letter-spacing: 0;
+    margin-left: -60px;
+    padding: 0 58px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 120%;
+
+}
+
+.form-section input[type="submit"]:hover{
+    background-color: #218c74;
+
+}
+.form-section{
+  padding-top: 30px;
+}
+
+footer{
+  padding-top: 300px;
+}
+a{
+  text-decoration: none;
+}
