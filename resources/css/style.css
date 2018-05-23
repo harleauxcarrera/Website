@@ -7,22 +7,25 @@
   box-sizing: border-box;
 }
 
-html {
-  background-color: grey;
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: grey;
 }
 
 
-body {
-background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url(../img/damn2.gif);
-  max-height : 100%;
-  min-width : 100%;
-  background-size:100% 100%;
-    background-attachment: fixed;
-  background-repeat:no-repeat;
-  overflow-y: hidden;
-  overflow-x: hidden;
- }
-
+#headerTop {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../img/damn2.gif");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 300px;
+}
 
 h1{
   color: white;
@@ -42,67 +45,20 @@ h3,h4{
 /*---- REUSBALE COMPONENTS ----*/
 /*-------------------------------*/
 
-header{
-
-  text-align: center;
-}
-#headerTop{
-  padding-top:300px;
-}
-
-.row{
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-#body{
-
-}
-
-.space{
-  padding: 145px;
-}
-
-input{
-  text-align: center;
-}
-
-.form-section input[type="email"] {
-    border: 0 none;
-    border-radius: 25px;
-    color: #9b9b9b;
-    font-size: 16px;
-    font-style: normal;
-    height: 51px;
-    letter-spacing: 0;
-    text-align: center;
-    width: 460px;
-}
-.form-section input[type="submit"] {
-    background: #aaa69d none repeat scroll 0 0;
-    border: 0 none;
-    border-radius: 25px;
-    color: #fff;
-    height: 51px;
-    letter-spacing: 0;
-    margin-left: -60px;
-    padding: 0 58px;
+.btn{
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 120%;
+    background-color: grey;
+    border-radius: 36px;
 
 }
-
-.form-section input[type="submit"]:hover{
-    background-color: #218c74;
-
-}
-.form-section{
-  padding-top: 30px;
+.btn:hover{
+  background-color: #218c74;
 }
 
-footer{
-  padding-top: 300px;
-}
-a{
-  text-decoration: none;
+#email{
+  width: 300px;
+  border-radius: 26px;
+  text-align: center;
+  padding-top: 6px;
+  box-shadow:  5px 5px;
 }
