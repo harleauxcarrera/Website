@@ -4,21 +4,26 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 body, html {
     height: 100%;
     margin: 0;
     background-color: grey;
+  
 }
 
+html{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('../img/aztec.jpg');
+}
 
 #headerTop {
     /* The image used */
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../img/damn2.gif");
     /* Full height */
     height: 100%;
+    width:100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -49,6 +54,8 @@ h3,h4{
     font-family: 'Alegreya Sans SC', sans-serif;
     background-color: grey;
     border-radius: 36px;
+    margin: auto;
+    width: 300px;
 
 }
 .btn:hover{
@@ -61,4 +68,12 @@ h3,h4{
   text-align: center;
   padding-top: 6px;
   box-shadow:  5px 5px;
+}
+.form-section{
+    margin: auto;
+    width:80%;
+}
+.row{
+  margin-right: 0;
+  margin-left: 0;
 }
