@@ -13,9 +13,7 @@ html {
 body{
   background-color: grey;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url(../img/damn2.gif);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-repeat: no-repeat;
