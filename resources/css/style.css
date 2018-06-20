@@ -95,3 +95,7 @@ h3,h4{
 .modal-body{
   text-align: center;
 }
+
+.modal-container{
+  padding-top: 150px;
+}
