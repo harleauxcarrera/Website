@@ -102,3 +102,7 @@ h3,h4{
 .sub{
   margin-top: 30px;
 }
+
+.form{
+  border-radius: 26px;
+}

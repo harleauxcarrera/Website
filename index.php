@@ -1,4 +1,39 @@
-<!DOCTYPE html>
+<?php
+
+$servername = "localhost";
+$username = "harleauxcarrera";
+$password = "please313";
+$dbname = "desertNoize";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+
+echo $name;
+echo $email;
+
+$sql = "INSERT INTO subs (name, email) VALUES ('$name', '$email')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+
+
+ ?>
+
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -68,11 +103,11 @@
               </div>
               <div class="modal-body">
 
-                <form class="" action="index.html" method="post">
-                  <input type="text" class = "form-control" name="name" value="" placeholder="Name..." required>
+                <form class="" action="index.php" method="post">
+                  <input type="text" class = "form-control form" name="name" value="" placeholder="Name..." required>
                   <br>
-                  <input type="email" class = "form-control" name="email" value="" placeholder="Email..." required>
-                  <button type="submit" class="btn btn-default sub">Subscribe</button>
+                  <input type="email" class = "form-control form" name="email" value="" placeholder="Email..." required>
+                  <button type="submit" class="btn btn-default sub">Submit</button>
                 </form>
 
               </div>
