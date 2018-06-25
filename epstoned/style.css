@@ -32,6 +32,7 @@ h1{
   text-transform: uppercase;
   margin-left: 60px;
   font-family: 'Denk One';
+  cursor:pointer;
 }
 
 @media only screen and (max-width: 600px) {
@@ -54,7 +55,7 @@ h1{
   max-width: 75%;
   margin-top: 80px;
   background-color: grey;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 3.0));;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 3.0));
   color: white;
   font-family: "Denk One";
 }
@@ -75,4 +76,30 @@ h1{
 
 .heartLogo{
   height: 200%;
+}
+
+.modal-body, .modal-title, .modal-footer{
+  text-align: center;
+  font-family: "Denk One";
+}
+
+form input{
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Denk One";
+  width: 100%;
+}
+
+.form-modal{
+  margin-bottom: 30px;
+}
+
+.submit{
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #contactModal, #aboutModal{
+    padding-top: 100px;
+  }
 }
