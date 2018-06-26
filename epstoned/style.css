@@ -112,7 +112,9 @@ form input{
 .card{
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 30px;
 }
+
 
 .card img{
   max-width: 290px;
@@ -131,4 +133,33 @@ form input{
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
+
+.footer{
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.logo{
+  color: white;
+  font-size: 20px;
+}
+
+.logo:hover{
+  color: pink;
+  text-decoration: none;
+}
+
+.logoHead{
+  color: white;
+  font-size: 36px;
+}
+.logoHead:hover{
+  color: pink;
+}
+
+.leftNavLnks{
+  padding-left: 60px;
 }
